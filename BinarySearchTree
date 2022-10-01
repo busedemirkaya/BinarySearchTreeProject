@@ -1,0 +1,24 @@
+Project 3
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2]. Write the Binary-Search-Tree stages of the sequence.
+
+
+***5 root***
+*First*
+7 passes to the right
+5 passes left
+*Second*
+1 passes to the left of 5
+8 passes to the right of 7
+*Third*
+3 passes to the right of 1
+6 passes to the left of 7
+*Fourth*
+0 switches to the left of 1
+9 passes to the right of 8
+*Fifth*
+4 passes to the right of 3
+2 passes to the left of 3
+
+
+Big-O Notation
+O(n)
